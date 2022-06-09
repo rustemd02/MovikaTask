@@ -7,24 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF36133D28522CCC00A5EA44 /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF36133328522CCB00A5EA44 /* VideoViewController.swift */; };
+		CF36133F28522CCC00A5EA44 /* VideoPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF36133728522CCB00A5EA44 /* VideoPresenter.swift */; };
+		CF7BFD93285234E3007CAB15 /* VideoModelService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7BFD92285234E3007CAB15 /* VideoModelService.swift */; };
+		CF7BFD9528523AE3007CAB15 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7BFD9428523AE3007CAB15 /* Video.swift */; };
+		CF7BFD9928523FD5007CAB15 /* VideoModuleBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7BFD9828523FD5007CAB15 /* VideoModuleBuilder.swift */; };
+		CF7BFD9B2852408F007CAB15 /* VideoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF7BFD9A2852408F007CAB15 /* VideoService.swift */; };
+		CF7BFD9D28524B90007CAB15 /* video1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CF7BFD9C28524B90007CAB15 /* video1.mp4 */; };
+		CF7BFD9F28526921007CAB15 /* video2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CF7BFD9E28526921007CAB15 /* video2.mp4 */; };
 		CFF502812852215E00C8FB2A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF502802852215E00C8FB2A /* AppDelegate.swift */; };
 		CFF502832852215E00C8FB2A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF502822852215E00C8FB2A /* SceneDelegate.swift */; };
-		CFF502852852215E00C8FB2A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFF502842852215E00C8FB2A /* ViewController.swift */; };
-		CFF502882852215E00C8FB2A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFF502862852215E00C8FB2A /* Main.storyboard */; };
 		CFF5028B2852215E00C8FB2A /* MovikaTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CFF502892852215E00C8FB2A /* MovikaTask.xcdatamodeld */; };
 		CFF5028D2852215F00C8FB2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFF5028C2852215F00C8FB2A /* Assets.xcassets */; };
-		CFF502902852215F00C8FB2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFF5028E2852215F00C8FB2A /* LaunchScreen.storyboard */; };
+		FF26ECBD43346371CFB61096 /* Pods_MovikaTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE3D2BAED3906D5547C9B7B7 /* Pods_MovikaTask.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C02E8C4ABB93DB65AA212DE /* Pods-MovikaTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovikaTask.release.xcconfig"; path = "Target Support Files/Pods-MovikaTask/Pods-MovikaTask.release.xcconfig"; sourceTree = "<group>"; };
+		3A203EE02727289C25C3013D /* Pods-MovikaTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovikaTask.debug.xcconfig"; path = "Target Support Files/Pods-MovikaTask/Pods-MovikaTask.debug.xcconfig"; sourceTree = "<group>"; };
+		AE3D2BAED3906D5547C9B7B7 /* Pods_MovikaTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MovikaTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF36133328522CCB00A5EA44 /* VideoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		CF36133728522CCB00A5EA44 /* VideoPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPresenter.swift; sourceTree = "<group>"; };
+		CF7BFD92285234E3007CAB15 /* VideoModelService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModelService.swift; sourceTree = "<group>"; };
+		CF7BFD9428523AE3007CAB15 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		CF7BFD9828523FD5007CAB15 /* VideoModuleBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoModuleBuilder.swift; sourceTree = "<group>"; };
+		CF7BFD9A2852408F007CAB15 /* VideoService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoService.swift; sourceTree = "<group>"; };
+		CF7BFD9C28524B90007CAB15 /* video1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video1.mp4; sourceTree = "<group>"; };
+		CF7BFD9E28526921007CAB15 /* video2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video2.mp4; sourceTree = "<group>"; };
 		CFF5027D2852215E00C8FB2A /* MovikaTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovikaTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFF502802852215E00C8FB2A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFF502822852215E00C8FB2A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		CFF502842852215E00C8FB2A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CFF502872852215E00C8FB2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CFF5028A2852215E00C8FB2A /* MovikaTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MovikaTask.xcdatamodel; sourceTree = "<group>"; };
 		CFF5028C2852215F00C8FB2A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		CFF5028F2852215F00C8FB2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFF502912852215F00C8FB2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -33,17 +47,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF26ECBD43346371CFB61096 /* Pods_MovikaTask.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF36133128522CCB00A5EA44 /* VideoModule */ = {
+			isa = PBXGroup;
+			children = (
+				CF7BFD92285234E3007CAB15 /* VideoModelService.swift */,
+				CF36133728522CCB00A5EA44 /* VideoPresenter.swift */,
+				CF36133328522CCB00A5EA44 /* VideoViewController.swift */,
+				CF7BFD9828523FD5007CAB15 /* VideoModuleBuilder.swift */,
+			);
+			path = VideoModule;
+			sourceTree = "<group>";
+		};
+		CF361347285234BC00A5EA44 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		CF361348285234C100A5EA44 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		CFF502742852215E00C8FB2A = {
 			isa = PBXGroup;
 			children = (
 				CFF5027F2852215E00C8FB2A /* MovikaTask */,
 				CFF5027E2852215E00C8FB2A /* Products */,
+				D72BEADE251EA826F94D2848 /* Pods */,
+				FAE76AE4ADDFD5F8D57E2AB8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +100,37 @@
 		CFF5027F2852215E00C8FB2A /* MovikaTask */ = {
 			isa = PBXGroup;
 			children = (
+				CF7BFD9C28524B90007CAB15 /* video1.mp4 */,
+				CF7BFD9E28526921007CAB15 /* video2.mp4 */,
+				CF7BFD9428523AE3007CAB15 /* Video.swift */,
+				CF361348285234C100A5EA44 /* Services */,
+				CF361347285234BC00A5EA44 /* Resources */,
 				CFF502802852215E00C8FB2A /* AppDelegate.swift */,
 				CFF502822852215E00C8FB2A /* SceneDelegate.swift */,
-				CFF502842852215E00C8FB2A /* ViewController.swift */,
-				CFF502862852215E00C8FB2A /* Main.storyboard */,
 				CFF5028C2852215F00C8FB2A /* Assets.xcassets */,
-				CFF5028E2852215F00C8FB2A /* LaunchScreen.storyboard */,
 				CFF502912852215F00C8FB2A /* Info.plist */,
 				CFF502892852215E00C8FB2A /* MovikaTask.xcdatamodeld */,
+				CF36133128522CCB00A5EA44 /* VideoModule */,
+				CF7BFD9A2852408F007CAB15 /* VideoService.swift */,
 			);
 			path = MovikaTask;
+			sourceTree = "<group>";
+		};
+		D72BEADE251EA826F94D2848 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3A203EE02727289C25C3013D /* Pods-MovikaTask.debug.xcconfig */,
+				0C02E8C4ABB93DB65AA212DE /* Pods-MovikaTask.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FAE76AE4ADDFD5F8D57E2AB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE3D2BAED3906D5547C9B7B7 /* Pods_MovikaTask.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +140,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CFF502942852215F00C8FB2A /* Build configuration list for PBXNativeTarget "MovikaTask" */;
 			buildPhases = (
+				8B7FF0B20E7905B1373A39F5 /* [CP] Check Pods Manifest.lock */,
 				CFF502792852215E00C8FB2A /* Sources */,
 				CFF5027A2852215E00C8FB2A /* Frameworks */,
 				CFF5027B2852215E00C8FB2A /* Resources */,
+				05E1BF85FE88165D5CD0E155 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,46 +193,74 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFF502902852215F00C8FB2A /* LaunchScreen.storyboard in Resources */,
+				CF7BFD9D28524B90007CAB15 /* video1.mp4 in Resources */,
 				CFF5028D2852215F00C8FB2A /* Assets.xcassets in Resources */,
-				CFF502882852215E00C8FB2A /* Main.storyboard in Resources */,
+				CF7BFD9F28526921007CAB15 /* video2.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05E1BF85FE88165D5CD0E155 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MovikaTask/Pods-MovikaTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MovikaTask/Pods-MovikaTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MovikaTask/Pods-MovikaTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B7FF0B20E7905B1373A39F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MovikaTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CFF502792852215E00C8FB2A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFF502852852215E00C8FB2A /* ViewController.swift in Sources */,
+				CF36133F28522CCC00A5EA44 /* VideoPresenter.swift in Sources */,
+				CF7BFD9B2852408F007CAB15 /* VideoService.swift in Sources */,
+				CF7BFD93285234E3007CAB15 /* VideoModelService.swift in Sources */,
 				CFF5028B2852215E00C8FB2A /* MovikaTask.xcdatamodeld in Sources */,
 				CFF502812852215E00C8FB2A /* AppDelegate.swift in Sources */,
+				CF36133D28522CCC00A5EA44 /* VideoViewController.swift in Sources */,
+				CF7BFD9528523AE3007CAB15 /* Video.swift in Sources */,
 				CFF502832852215E00C8FB2A /* SceneDelegate.swift in Sources */,
+				CF7BFD9928523FD5007CAB15 /* VideoModuleBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		CFF502862852215E00C8FB2A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CFF502872852215E00C8FB2A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		CFF5028E2852215F00C8FB2A /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CFF5028F2852215F00C8FB2A /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CFF502922852215F00C8FB2A /* Debug */ = {
@@ -286,6 +379,7 @@
 		};
 		CFF502952852215F00C8FB2A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A203EE02727289C25C3013D /* Pods-MovikaTask.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -296,9 +390,10 @@
 				INFOPLIST_FILE = MovikaTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeLeft;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,12 +403,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		CFF502962852215F00C8FB2A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C02E8C4ABB93DB65AA212DE /* Pods-MovikaTask.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -324,9 +420,10 @@
 				INFOPLIST_FILE = MovikaTask/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationLandscapeLeft;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -336,7 +433,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
