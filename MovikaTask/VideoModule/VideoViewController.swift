@@ -51,14 +51,15 @@ class VideoViewController: UIViewController, VideoViewControllerProtocol {
         guard let duration = duration else {
             return
         }
-
+        
+        
         UIView.animate(withDuration: duration, delay: 1, options: .allowUserInteraction) {
             self.timeLeftView.transform = CGAffineTransform(scaleX: 1, y: 0.000001)
         } completion: { _ in
             if (self.firstClipView.isHidden) { return }
             
             let alert = UIAlertController(title: "Проигрыш", message: "Не успели", preferredStyle: .alert)
-            alert.addAction(UIAlertAction(title: "Ок", style: .cancel, handler: {_ in 
+            alert.addAction(UIAlertAction(title: "Ок", style: .cancel, handler: {_ in
                 self.button.isHidden = true
             }))
             self.present(alert, animated: true, completion: nil)
@@ -69,10 +70,11 @@ class VideoViewController: UIViewController, VideoViewControllerProtocol {
                 x: self.button.center.x + 210,
                 y: self.button.center.y + 70
             )
-            self.button.transform = CGAffineTransform (scaleX: 2, y: 2 )
+            self.button.transform = CGAffineTransform (scaleX: 2, y: 2)
+            
         }.startAnimation()
         
-
+        
         
     }
     
@@ -100,17 +102,17 @@ class VideoViewController: UIViewController, VideoViewControllerProtocol {
         
         timeLeftBackgroundView.backgroundColor = .darkGray
         timeLeftBackgroundView.snp.makeConstraints { make in
-            make.top.equalTo(view.safeAreaLayoutGuide).offset(8)
-            make.bottom.equalTo(view.safeAreaLayoutGuide).inset(8)
+            make.top.equalTo(view.safeAreaLayoutGuide).inset(8)
+            make.bottom.equalTo(view.safeAreaLayoutGuide).offset(8)
             make.width.equalTo(16)
             make.left.equalTo(view.safeAreaLayoutGuide).offset(8)
-            //make.right.equalTo(view.safeAreaLayoutGuide).inset(8)
+            
         }
         
         timeLeftView.backgroundColor = .white
         timeLeftView.snp.makeConstraints { make in
-            make.top.equalTo(view.safeAreaLayoutGuide).offset(8)
-            make.bottom.equalTo(view.safeAreaLayoutGuide).inset(8)
+            make.top.equalTo(view.safeAreaLayoutGuide).inset(8)
+            make.bottom.equalTo(view.safeAreaLayoutGuide).offset(8)
             make.width.equalTo(16)
             make.left.equalTo(view.safeAreaLayoutGuide).inset(8)
         }
