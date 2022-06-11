@@ -55,6 +55,7 @@ class VideoViewController: UIViewController, VideoViewControllerProtocol {
         
         UIView.animate(withDuration: duration, delay: 1, options: .allowUserInteraction) {
             self.timeLeftView.transform = CGAffineTransform(scaleX: 1, y: 0.000001)
+            self.timeLeftView.backgroundColor = .red
         } completion: { _ in
             if (self.firstClipView.isHidden) { return }
             
@@ -87,6 +88,12 @@ class VideoViewController: UIViewController, VideoViewControllerProtocol {
         firstClipView.addSubview(button)
         firstClipView.addSubview(timeLeftBackgroundView)
         firstClipView.addSubview(timeLeftView)
+        
+        uiReset()
+    }
+    
+    func uiReset() {
+        
         
         firstClipView.isUserInteractionEnabled = true
         firstClipView.snp.makeConstraints { make in
